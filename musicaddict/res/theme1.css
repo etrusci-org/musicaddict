@@ -1,0 +1,64 @@
+@charset 'utf-8';
+
+body {
+    background: #222;
+    color: #999;
+}
+
+h1,
+label,
+button {
+    color: #e5e5e5;
+}
+
+textarea {
+    color: #e5e5e5;
+}
+
+button,
+textarea {
+    background: #444;
+}
+
+button:hover,
+button:focus {
+    background: #666;
+}
+
+header {
+    background: #111;
+}
+
+.ui.main .holdings span.ui,
+.ui.main .stats span.ui,
+.ui.main .game span.ui {
+    color: #e5e5e5;
+}
+
+.ui.log .record {
+    color: #e5e5e5;
+}
+
+.ui.log .price {
+    color: #e5e5e5;
+}
+
+.ui.log_img {
+    border-color: #444;
+    background-color: #000;
+}
+
+.digging { color: #9a72e5; }
+.toomanyrecords { color: #7d44e5; }
+
+.needmorecash { color: #e57272; }
+.broke { color: #e54444; }
+
+.discover { color: #a4e572; }
+.listen { color: #a4e572; }
+.buy { color: #a4e572; }
+.skip_buy { color: #a4e572; }
+
+.offer { color: #e5e372; }
+.sell { color: #e5e372; }
+.skip_sell { color: #e5e372; }

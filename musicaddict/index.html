@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="res/layout.css">
+    <link rel="stylesheet" type="text/css" href="res/theme1.css">
+
+    <title>Music Addict</title>
+</head>
+<body>
+    <noscript>(!) THIS APP WON'T WORK WITHOUT JAVASCRIPT (!)</noscript>
+
+    <header>
+        <h1>Music Addict</h1>
+
+        <button class="ui" data-key="ctrl_about">?</button>
+
+        <p class="ui" data-key="story">
+            You're broke and lonely. After many sleepless nights in your 1-room flat, you decide to spend your
+            last 7&#9672; to buy music. "At least my funeral will have a good soundtrack", you think.
+        </p>
+
+        <button class="ui" data-key="ctrl_play">visit your local record store</button>
+        <button class="ui hide" data-key="ctrl_pause">pause/save</button>
+        <button class="ui hide" data-key="ctrl_export">export</button>
+        <button class="ui hide" data-key="ctrl_reset">reset</button>
+    </header>
+
+    <main class="ui hide" data-key="main">
+        <div>
+            <div class="holdings box">
+                <label>holdings</label><br>
+                <span class="ui" data-key="char_records">-</span> records<br>
+                <span class="ui" data-key="char_cash">-</span> cash
+            </div>
+            <div class="stats box">
+                <label>trading</label><br>
+                <span class="ui" data-key="char_records_bought">-</span> records bought for <span class="ui" data-key="char_total_spent">-</span><br>
+                <span class="ui" data-key="char_records_sold">-</span> records sold for <span class="ui" data-key="char_total_earned">-</span><br>
+                <span class="ui" data-key="char_trade_profit">-</span> profit
+            </div>
+            <div class="game box">
+                <label>game</label><br>
+                started <span class="ui" data-key="game_started">-</span> ago<br>
+                saved <span class="ui" data-key="last_save">-</span> ago
+            </div>
+        </div>
+
+        <div class="ui box" data-key="log_img"></div>
+
+        <ul class="ui box" data-key="log"></ul>
+    </main>
+
+    <script src="lib/app.js"></script>
+    <script src="lib/version.js"></script>
+    <script src="lib/std.js"></script>
+    <script src="lib/data.js"></script>
+    <script src="lib/data_random.js"></script>
+    <script src="lib/storage.js"></script>
+    <script src="lib/random.js"></script>
+    <script src="lib/ui.js"></script>
+    <script src="lib/game.js"></script>
+    <script src="lib/main.js"></script>
+</body>
+</html>

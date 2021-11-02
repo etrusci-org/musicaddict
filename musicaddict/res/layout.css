@@ -1,0 +1,79 @@
+@charset 'utf-8';
+
+@font-face {
+    font-family: 'Share Tech Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('share-tech-mono-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+       url('share-tech-mono-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('share-tech-mono-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('share-tech-mono-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('share-tech-mono-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('share-tech-mono-v10-latin-regular.svg#ShareTechMono') format('svg'); /* Legacy iOS */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+}
+
+ul,
+p {
+    margin-bottom: 5px;
+}
+
+ul:last-child,
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none inside;
+}
+
+h1,
+label,
+button {
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
+textarea {
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+
+header,
+main {
+    padding: 15px 20px;
+}
+
+header h1 {
+    display: inline;
+}
+
+.hide { display: none; } /* mandatory class for the ui to work */
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 15px 0;
+}
+
+.ui.log_img {
+    width: 180px;
+    height: 140px;
+    border: 3px solid;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
