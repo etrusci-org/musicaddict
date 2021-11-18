@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 
 function sec_to_dhms(sec) {
