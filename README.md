@@ -13,7 +13,7 @@ A modern web-browser (as of 2021).
 
 ## Where to play
 
-[Play the latest version online](https://etrusci-org.github.io/musicaddict/musicaddict/index.html)
+[Play the latest version online](https://etrusci.org/play/musicaddict/)
 or [download the code](https://github.com/etrusci-org/musicaddict) and play it
 locally on your computer (no internet connection required then).
 
